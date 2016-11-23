@@ -1,5 +1,5 @@
 var value = require('./value'),
-  generateUuid = require('node-uuid').v4;
+  generateUuid = require('uuid').v4;
 
 var stepHandlers = {
   'custom': require('./handlers/custom'),
